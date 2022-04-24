@@ -42,7 +42,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
 <!--                    <jvmArguments>-javaagent:org.jacoco.agent-0.8.7-runtime.jar=includes=com/**/*,output=tcpserver,port=6300,address=localhost,append=true</jvmArguments>-->
-                    <jvmArguments>${argLine}</jvmArguments>
+<!--                    <jvmArguments>${argLine}</jvmArguments>-->
                 </configuration>
                 <executions>
                     <execution>
