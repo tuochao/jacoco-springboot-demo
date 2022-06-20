@@ -19,4 +19,11 @@ public class HelloController {
         logger.info("test logger");
         return "test!";
     }
+
+    // add controller to test increment coverage
+    @GetMapping("/add")
+    public String add() {
+        logger.info("add logger");
+        return "add!";
+    }
 }
